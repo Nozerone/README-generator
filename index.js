@@ -66,12 +66,6 @@ inquirer
 
     {
       type: "input",
-      message: "please enter a link to your project repository",
-      name: "githubLink",
-    },
-
-    {
-      type: "input",
       message:
         "Please list any collaborators that helped develped this project.",
       name: "credits"
@@ -88,7 +82,7 @@ inquirer
     const mdRender = generateMarkdown(data);
 
     console.log(mdRender);
-    fs.writeFile("README.md", mdRender, (err) =>
+    fs.writeFile("./utils/README.md", mdRender, (err) =>
       err ? console.error(err) : console.log("success!")
     );
   });

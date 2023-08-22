@@ -14,17 +14,34 @@ function generateMarkdown(data) {
   return `
   ${licenseBadge(data)}
   # ${data.title} 
-  ${data.description ? `## Description\n ${data.description}` : ""}
-  ## Installation\n ${data.confirmInstall ? `${data.confirmInstall}` : "N/A"}
-  ${data.usage ? `## Usage\n ${data.usage} ` : ""}
-  ${data.contribute ? `## How to contribute\n ${data.contribute} ` : ""}
-  ## License \n
+   ## Description
+   ${data.description} 
+   ## Table of Contents
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [Contribute](#contribute)
+   * [License](#license)
+   * [Author](#author)
+   * [gitHub](#github)
+   * [Credits](#credits)
+   * [Email](#email)
+   
+  ## Installation 
+  ${data.confirmInstall} 
+  ## Usage 
+  ${data.usage}
+  ## Contribute 
+  ${data.contribute}
+  ## License 
   This application is covered under ${data.license} license
-  ${data.author ? `## Project Author\n ${data.author} ` : ""}
-  ${data.githubuser ? `### gitHub Username\n [${data.githubUser}](https://github.com/${data.githubUser} ` : ""}
-  ${data.githubLink ? `### github\n ${[data.githubLink]} ` : ""}
-  ${data.credits ? `### Credits\n ${data.credits}` : ""}
-  ${data.email ? `### Email\n ${[data.email]}` : ""}
+  ## Project Author 
+  ${data.author} 
+   ### gitHub 
+   [${data.githubUser}](https://github.com/${data.githubUser})
+   ### Credits 
+   ${data.credits} 
+   ### Email 
+   ${data.email}
 
 `;
 }
