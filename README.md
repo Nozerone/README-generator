@@ -1,21 +1,24 @@
 
-  ![License](https://img.shields.io/badge/OpenSource-blue);
-  #  
+  ![License](https://img.shields.io/badge/license-GNU-blue)
+  # yoyo 
   ## Description
-pih
+ yoyoyoyoy
   ## Installation
  N/A
-  
+  ## Usage
+ yuoyoyoy 
   ## How to contribute
-pih
-  ## License OpenSource
+ yoyo 
+  ## License 
+
+  This application is covered under GNU license
   ## Project Author
-pih
+ jose 
   
   ### github
- www.github.com/nozerone
+ nozerone.com 
   ### Credits
-ih-i
-  ### email
-nozerone@hotmail.com
+ hkhkhkh
+  ### Email
+ me@me.com
 

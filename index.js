@@ -3,11 +3,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-
-// TODO: Create a function to write README file
-
-// TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
@@ -54,7 +49,6 @@ inquirer
         "Apache",
         "OpenSource",
         "Other",
-        "None",
       ],
     },
 
@@ -79,8 +73,8 @@ inquirer
     {
       type: "input",
       message:
-        "Please list collaborator if any, that helped develope or inspire this project.",
-      name: "credits",
+        "Please list any collaborators that helped develped this project.",
+      name: "credits"
     },
 
     {
