@@ -34,7 +34,7 @@ module.exports = () => {
       }
       ),
       new WebpackPwaManifest({
-        fingerprints: true,
+        fingerprints: false,
         inject: true,
         name: 'Jate',
         short_name: 'Jate',
